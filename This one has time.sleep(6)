@@ -1,0 +1,329 @@
+import time
+
+print('This took me way too goddamn long. I\'m talking 20+ hours. No joke.')
+print('')
+
+A = 1
+win = 0
+storychange = ('N/A')
+storychange1 = ('N/A')
+storychange2 = ('N/A')
+storychange3 = ('N/A')
+storychange4 = ('N/A')
+storychange5 = ('N/A')
+storychange6 = ('N/A')
+storychange7 = ('N/A')
+storychange8 = ('N/A')
+storychange9 = ('N/A')
+
+print(' ')
+
+name = input('What is your name?')
+capitalname = name.upper()
+name = name.capitalize()
+print(' ')
+nickname = input('What is your nickname?')
+nickname = nickname.capitalize()
+print('Okay. Let\'s get started!')
+
+print(' ')
+print(' ')
+
+while A==1:
+  if name != nickname:
+    #In case I forget, put %s where I want a name to be, then in order from first %s to last %s, put in the name variables
+    print('''Your name is %s, but your friends call you %s.
+    ''' % (name, nickname))
+    time.sleep(1.5)
+    print('''You are a twenty nine year old biology scientist who has been in the field since leaving university at twenty five. One day, you sit down to eat lunch, opening up your ham and cheese sandwich and oreo packet, as you do everyday. Saving the best for last, you eat your ham and cheese sandwich, then take your Oreos and twist them, opening up the cream in the middle.
+    ''')
+    time.sleep(6)
+    print('''You lick the cream out of the middle, but something hard hits your tongue. You spit it out. "Ew!" You exclaim, believing the oreo to have a dead cockroach in it. I mean, it's not every day that there's a hard pellet in your soft food. You look down at it. It's a crumpled piece of paper! What on Earth was that doing in your Oreo?
+    ''')
+    time.sleep(6)
+    print('''You pop open the pill, unravel the paper, and wipe off the sticky cream of the Oreo. It's a series of numbers... (41, -145). Below that, it says 'meet me'. You type in (41, -145) into Google and find the coordinates of a location. It's only an hour's drive away.
+    ''')
+    time.sleep(6)
+  if name == nickname:
+    print('''Your name is %s.
+    ''' % (name))
+    time.sleep(1.5)
+    print('''You are a twenty nine year old biology scientist who has been in the field since leaving university at twenty five. One day, you sit down to eat lunch, opening up your ham and cheese sandwich and oreo packet, as you do everyday. Saving the best for last, you eat your ham and cheese sandwich, then take your Oreos and twist them, opening up the cream in the middle.
+    ''' % (name))
+    time.sleep(6)
+    print('''You lick the cream out of the middle, but something sort of... hard... hits your tongue. You spit it out. "Ew!" You exclaim, believing the oreo to have a dead cockroach in it. I mean, it's not every day that there's a hard pellet in your soft food. You look down at it. It's a small piece of paper inside of a little pill! What on Earth was that doing in your Oreo?
+    ''')
+    time.sleep(6)
+    print('''You pop open the pill, unravel the paper, and wipe off the sticky cream of the Oreo. It's a series of numbers... (41, -145). Below that, it says 'meet me'. You type in (41, -145) into Google and find the coordinates of a location. It's only an hour's drive away.
+    ''')
+    time.sleep(6)
+  storychange = input('What do you do? Do you drive to the coordinates (1)? Do you wait until you\'ve got off work before driving there (2)? Or do you not go there at all (3)?')
+  
+  print(' ')
+  print(' ')
+
+  if storychange == ('1'):
+    print('''You drive to the location, leaving work immediately, because today was pretty lame and this seems fun. At the location, you hop out of the car, hoping to be greeted by some alien or FBI agent. There is nothing. It's just some plains.
+    ''')
+    time.sleep(6)
+    print('''You wasted an hour driving here, so you feel obligated to look around. You grab your lucky pen from the car and go look. After about 5 minutes, you hear a deafening screech and see a colossal structure bursting out of the ground. It looks very cyberpunk. Cylindrical, dark and metallic.
+    ''')
+    time.sleep(6)
+    print('''In awe, you stumble backwards. A booming sound appears from the top. "%s. PLEASE DISARM AND CLOSE YOUR EYES."
+    ''' % (capitalname))
+    time.sleep(6)
+    storychange1 = input('What do you do? Do you listen to the massive tower in front of you and disarm yourself (1)? Or do you rebel and refuse what they said (2)?')
+    
+    print(' ')
+    print(' ')
+    
+    if storychange1 == ('1'):
+      print('''Because you're a sane person, you listen to the 10 tonne death machine. You close your eyes and remove your pen from your pocket, dropping it on the loamy ground.
+      ''')
+      time.sleep(6)
+      print('''Something similar to an eye lights up on the thing, making it look somewhat like a cyclops. Nothing happens. You wait five minutes. Nothing continues to happen.
+      ''')
+      time.sleep(6)
+      storychange2 = input('What do you do? Do you turn around and go home (1)? Or do you continue waiting (2)?')
+      
+      print(' ')
+      print(' ')
+      
+      if storychange2 == ('1'):
+        A = 0
+        print('''You pick up your stuff, go to turn around and head home. A second later, alarms go off all around you. You are vapourised by the beam of light coming from the 'eye' of the structure.
+        ''')
+        time.sleep(6)
+        print('The end.')
+
+      if storychange2 == ('2'):
+        print('''You decide to wait. Five seconds later, you see a blinding light shoot out of the 'eye'. It envelops you, and you feel all your atoms being ripped off your body one by one. It's the most painful feeling you've ever experienced in your entire life.
+        ''')
+        time.sleep(6)
+        print('''You black out. When you come to, you are in a room resembling a stereotypical asylum room. Everything around you is whiter than someone who claps when a plane lands. In the centre of the room is you, tied down to a bed. A doctor walks into the room. "Ah, good to see you're awake %s! My name is Josef Mengele! I'm head scientist here." You feel like you recognise his name, but don't quite. "Wh... Where am I?" You stammer, still groggy from waking up.
+        ''' % (nickname))
+        time.sleep(6)
+        print('''"I'm sorry, I'm not allowed to tell you where you are. You look at Doctor Mengele. He's a very old man, at least in his 80s. He was bald, apart from a ring of frizzy, grey hair along the side of his head.
+        ''')
+        time.sleep(6)
+        print('''"I've been studying you for a few months. I am part of a large organisation who is trying to preserve the purity of the human race through Eugenics. We noticed how intelligent you are in your field and we need your help and your DNA! Mengele states.
+        ''')
+        time.sleep(6)
+        print('''After hearing that, you remember who he is. Josef Mengele. The Nazi scientist of WWII that commited millions of war crimes.
+        ''')
+        time.sleep(6)
+        storychange3 = input('Do you try and escape (1)? Or do you comply with him (2)?')
+        
+        print(' ')
+        print(' ')
+        
+        
+        if storychange3 == ('1'):
+          print('''You decide not to simp for the Nazis, and attempt to escape. When Josef has his back turned, you force your hands out of the restraints. Josef hears the commotion and turns around. "What do you think you're doing %s?
+          '''% (name))
+          time.sleep(6)
+          print('''He attempts to restrain you. He's like 90 so he can't. You decide to stick your fingers into his eyes and gouge his eyes out. He screams in pain, but every ounce of that is deserved. Now you need to worry about getting out. You look around and the only ways out are a vent and a door. The door is locked, and you can't reach the vent. The only thing in the room that isn't nailed down that you could use as a step is Mengele.
+          ''')
+          time.sleep(6)
+          storychange4 = input('Do you go through the vent (1) or the door (2)?')
+          
+          print(' ')
+          print(' ')
+          
+          if storychange4 == ('1'):
+            A = 0
+            print('''You can't go through the vent. You can't reach it. I literally told you you idiot. You die of starvation, trapped in the room.
+            ''')
+            time.sleep(6)
+            print('The end.')
+          
+          if storychange4 == ('2'):
+            print('''You look around for ways to get out of the room, and see the locked door. You fiddle around with the doorhandle, trying to open it. You can't. Then you look at Josef Mengele's lifeless, eyeless corpse.
+            ''')
+            time.sleep(6)
+            print('''You have a bright idea. Use Mengele's body as a battering ram! You pick up his body and move to the back of the wall, take a breather, then sprint at the door with Mengele going headfirst.
+            ''')
+            time.sleep(6)
+            print('''It doesn't work. You hit the door, fall over and Mengele's skull splits in two. You try again. The second time, right before you hit the wall, you throw his body for extra speed.
+            ''')
+            time.sleep(6)
+            storychange5=input('Mengele\'s body isn\'t looking so good, but you are, because you\'ve opened the door! The door swings open to reveal a hallway. It goes left (1), right (2) and straight (3). All directions go down black, featureless corridoors. Which way do you go?')
+          
+            print(' ')
+            print(' ')
+          
+            if storychange5 == ('1') or storychange5 == ('2') or storychange5 == ('3'):
+              print('''You pick up the Nazi's body and head down the hallway. You reach a door, you open it, revealing a control room. Inside are three people. A middle aged woman with blonde, greying hair, a middle aged man who looks just like your Dad and another woman, with brown hair and a crazed look in their eyes.
+              ''')
+              time.sleep(6)
+              storychange6 = input('The crazed looking woman sees you. Do you hide (1)? Or do you throw Mengele\'s corpse at her as a distraction (2)?')
+              
+              print(' ')
+              print(' ')
+              
+              if storychange6 == ('1'):
+                print('''You decide to go and hide behind the door, leaving the battered, bruised, bloody, and bastardly Mengele. You see the woman pacing quickly towards you. You feel your heart beat quicker every step she takes towards you. She leaves the room, passing you, then turns around and closes the door you're hiding behind.
+                ''')
+                time.sleep(6)
+                print(''''Hey, my name's Izzy. Izzy Pastara. I'm a mole, put here by a Nazi hunting organisation to suppress and kill all Nazis and Neo-Nazi parties. I saw how you dealt with him', she points to Mengele's corpse, 'and I feel I could use your help to put this puppy down.', Gesturing to the entire place.
+                ''')
+                time.sleep(6)
+                print(''''You're located inside a Nazi death machine. I've been trying to sabotage it and break it down for years. The person you killed was a clone of Nazi scientist Josef Mengele. 40 years ago, they captured him when he was swimming off a beach, stole his DNA and have been using him as their drones. 
+                ''')
+                time.sleep(6)
+                print('''The people here have been looking for the best candidate to alter Mengele's DNA, making him younger and turning him into a superhuman. You were their choice.'
+                ''')
+                time.sleep(6)
+                print('''I did not know they had already captured you, and would have broken you out, but I think they're getting an inkling that I'm not helping them.'
+                ''')
+                time.sleep(6)
+                print('''Before I continue, I need to know. Will you help me overthrow them?
+                ''')
+                time.sleep(6)
+                storychange7 = input('You can help (1), or refuse to help (2)')
+                
+                print(' ')
+                print(' ')
+                
+                if storychange7 == ('1'):
+                  print(''''Great! I want you to run in there and cause as much distraction as possible. I'll follow you and shoot them with this gun.' She explains, grabbing a gun hidden in her outfit.
+                  ''')
+                  time.sleep(6)
+                  print('''You burst into the room, screaming. The middle aged man and woman turn around with a look of utter shock and surprise on their face. You turn around to see where Izzy is, and while you're looking for her you hear two bangs. You turn around to where the man and woman were, and they're now dead.
+                  ''')
+                  time.sleep(6)
+                  print(''''Let's blow this joint!' Izzy says. 'There's a button or a switch here. One will blow it all up instantly, while the other will blow it up in ten minutes allowing us to escape.'
+                  ''')
+                  time.sleep(6)
+                  storychange8 = input('\'I don\'t know what to press. Could you decide?\' Izzy offers. Do you press the button (1), or pull the switch (2)?')
+                  
+                  print(' ')
+                  print(' ')
+                  
+                  if storychange8 == ('1'):
+                    A = 0
+                    print('''You press the button. You are blown up and die instantly
+                    ''')
+                    time.sleep(6)
+                    print('The end.')
+                    
+                  if storychange8 == ('2'):
+                    print('''You pull the switch. A massive, almost deafening beep sounds over the room, then a robotic voice monotonously states: 'TEN MINUTES'.
+                    ''')
+                    time.sleep(6)
+                    print(''''Okay. You chose correctly! Let's get out of here!' Izzy exclaims, excitedly. You follow Izzy as she runs out of the room, going down a maze of hallways. This continues for what feels like forever, as you hear the robotic voice continue counting down until you reach a gigantic vault. 'ONE MINUTE UNTIL DETONATION'. The voice says.
+                    ''')
+                    time.sleep(6)
+                    storychange9 = input('You rush towards the door, but out of nowhere comes five Josef Mengeles! They all decide to go towards Izzy.  Do you keep running for the door (1), or do you sacrifice yourself, by running at the Mengeles to let Izzy escape (2)?')
+                    
+                    print(' ')
+                    print(' ')
+                    
+                    if storychange9 == ('1'):
+                      win = 1
+                      A = 0
+                      print('''You run outside, leaving Izzy for dead. Once you've run for a hundred odd metres, you turn around and see the coolest explosion ever. You run back to your car, which was still where you parked it, hop in and drive home.
+                      ''')
+                      time.sleep(6)
+                      print('''Once you arrive home, you take a long, hot shower and try to put the events of the past away. Once you get out of the shower, you see you have some mail. It's your boss, asking where you are. The letter is dated 5 days later than when you left. You curse, because your boss is going to kill you. You decide to go to sleep and worry about it in the morning.
+                      ''')
+                      time.sleep(6)
+                      print('The end.')
+                      
+                    if storychange9 == ('2'):
+                      win = 2
+                      A = 0
+                      print('''You jump in front of the Mengeles, yelling at Izzy to go. She listens, and your last sight before you are eaten by the Mengeles is Izzy running away. You see Izzy double take, and say 'thankyou.'.
+                      ''')
+                      time.sleep(6)
+                      print('The end.')
+                      
+                    
+                if storychange7 == ('2'):
+                  A = 0
+                  print('''You refuse to help. 'Okay %s.' Izzy says. She whips out a hidden gun. You walk backwards. 'I'm sorry we had to end like this.' She shoots you, and you die.
+                  ''' % (name))
+                  time.sleep(6)
+                  print('The end.')
+                
+              if storychange6 == ('2'):
+                A = 0
+                print('''You throw Mengele at the woman. This alerts the other two people in the control room, who press a big red button, causing an alarm to go off. A door opens behind you and a massive metal bear jumps out from behind it. The bear mauls you to death.
+                ''')
+                time.sleep(6)
+                print('The end.')
+
+        if storychange3 == ('2'):
+          A = 0
+          print('''You comply with him. You goddamn Nazi sympathiser. Nazi simp. I, the narrator, kill you out of disappointment
+          ''')
+          time.sleep(6)
+          print('fuck you game over')
+    
+    if storychange1 == ('2'):
+      A = 0
+      print('''You decide not to disarm or close your eyes. Instead, you take two steps towards the megastructure. You see a bright light coming from the centre of the cylindrical 'building', and before you know what is going on, you are turned to a pile of dust.
+      ''')
+      time.sleep(6)
+      print('The end.')
+  
+  if storychange == ('2'):
+    A = 0
+    print('''You decide to drive there after work. Nothing is there, but a note that says 'not worthy'. You feel like you missed a fun adventure and wasted an hour driving here. You go home annoyed. You hang yourself out of boredom.
+    ''')
+    time.sleep(6)
+    print('The end.')
+  
+  if storychange == ('3'):
+    A = 0
+    print('''You decide to not do anything and go back to work. Soon, you forget about this event. You find a partner, settle down, have some kids, and retire in a nice coastal town with a name that sounds a lot more bogan than it is, like Wallaroo or Cowadonga. Your life was interesting, you made some cool discoveries in your field, but nothing extraordinary happened.
+    ''')
+    time.sleep(6)
+    print('The end.')
+
+if win == 0:
+  print(' ')
+  print(' ')
+  print('Unfortunately, you lost. You may have been hung, incinerated, vapourised, killed for simping for Nazis, starved to death, mauled by a robot bear, shot, blown up, or even retired. These are the options you chose:')
+  print(storychange)
+  print(storychange1)
+  print(storychange2)
+  print(storychange3)
+  print(storychange4)
+  print(storychange5)
+  print(storychange6)
+  print(storychange7)
+  print(storychange8)
+  print(storychange9)
+
+if win == 1:
+  print(' ')
+  print(' ')
+  print('You chose these options, and managed to survive:')
+  print('1')
+  print('2')
+  print('2')
+  print('1')
+  print('2')
+  print(storychange5)
+  print('1')
+  print('1')
+  print('2')
+  print('1')
+  print('Congratulations. You won!')
+  
+if win == 2:
+  print(' ')
+  print(' ')
+  print('You died, but it was a cool death, so as the narrator I\'m making an executive decision and saying you won. Here\'s the choices you made:')
+  print('1')
+  print('2')
+  print('2')
+  print('1')
+  print('2')
+  print(storychange5)
+  print('1')
+  print('1')
+  print('2')
+  print('2')
+  print('Congratulations. You won!')
